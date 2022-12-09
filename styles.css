@@ -1,0 +1,218 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+body {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Section 1 */
+
+.section--1 {
+    background-color: #1f2937;
+    padding-block: 36px 60px;
+    padding-inline: clamp(16px, 5vw, 181px);
+}
+
+.section--1 .wrapper {
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    gap: 46px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 45px;
+}
+
+.links > * {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.text {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+}
+
+.header-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.section--1 .wrapper .container .text .subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    width: 170px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    min-height: 250px;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.hero {
+    background-image: url(./hero_image.jpg);
+    align-self: stretch;
+    background-size: cover;
+    flex: 1.23;
+    border-radius: 9px;
+    
+}
+
+/* Section 2 */
+
+.section--2 {
+    font-family: "Roboto";
+}
+
+.section--2 .wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1110px;
+    margin: auto;
+    gap: 48px;
+}
+
+.section--2 .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin: 25px;
+}
+
+.cards {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.cards .card .img {
+    width: 140px;
+    height: 140px;
+    border: lightblue 3px solid;
+    border-radius: 8px;
+}
+
+.cards .card {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.card p {
+    text-align: center;
+}
+
+/* Section 3 */
+
+.section--3 {
+    background-color: #e5e7eb;
+    padding: 80px;
+}
+
+.section--3 .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.section--3 .wrapper .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.section--3 .wrapper .author {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.section--3 .wrapper .text div{
+    text-align: center;
+}
+
+/* Section 4 */
+
+.section--4 .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section--4 .wrapper {
+    background-color: blue;
+    margin: 80px;
+    padding: 60px;
+    border-radius: 8px;
+    min-width: 800px;
+    max-height: 100px;
+}
+
+.section--4 .wrapper .text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    text-align: left;
+}
+
+.section--4 .wrapper .text .header {
+    font-size: 24px;
+}
+
+.section--4 .wrapper button {
+    border: white solid 2px;
+    background: blue;
+}
